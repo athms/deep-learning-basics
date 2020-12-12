@@ -37,13 +37,13 @@ conda create --name deep-learning-basics python==3.8
 
 This will create a Python 3.8 environment with the name `deep-learning-basics` .
 
-Activate the new environment:
+Now, activate the new environment:
 
 ```bash
 conda activate deep-learning-basics
 ```
 
-Install all required dependencies in this environment: 
+and install all required dependencies to the environment: 
 
 ```bash
 pip3 install -r requirements.txt
