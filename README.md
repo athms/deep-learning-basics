@@ -2,14 +2,14 @@
 
 This repository contains a reproducible course on the basics of deep learning.
 
-Each topic is covered in a separate [Jupyter notebook](https://jupyter.org); each containing a theoretical introduction to its topic as well as a practical exercise.
+Each topic is covered in a separate [Jupyter notebook](https://jupyter.org); each notebook contains theoretical introduction to its topic as well as a practical exercise.
 
 
 ## 1. Running the notebooks
 
 For a general introduction to the Jupyter environment, I recommend [this tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
 
-You can either install all required dependencies for the notebooks locally (see below) or run the Jupyter notebooks on  [Jupyter Binder](https://mybinder.org) using the following link:  https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
+You can either run the Jupyter notebooks locally on your personal computer (see below for the installation instructions) or remotely with [Jupyter Binder](https://mybinder.org) using the following link:  https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD)
 
@@ -41,7 +41,7 @@ You can activate the new environment as follows:
 conda activate deep-learning-basics
 ```
 
-and then install all required dependencies in the environment: 
+and then install all required dependencies with: 
 
 ```bash
 pip3 install -r requirements.txt
