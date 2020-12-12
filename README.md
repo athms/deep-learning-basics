@@ -18,7 +18,12 @@ https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 ## 2. Local installation
 
-**1. Clone and switch to this repository.**
+**1. Clone and switch to this repository:**
+
+```bash
+git clone https://github.com/athms/deep-learning-basics.git
+cd deep-learning-basics
+```
 
 **2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
 
