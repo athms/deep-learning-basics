@@ -29,7 +29,7 @@ cd deep-learning-basics
 
 For this we recommend setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
 
-You can create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the following `bash` command:
+You can create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the following command:
 
 ```bash
 conda create --name deep-learning-basics python==3.8
