@@ -1,5 +1,3 @@
-# An introduction to the basics of deep learning
-
 ![Intro](materials/images/free-use/title_slide.png)
 
 This repository contains a reproducible course on the basics of deep learning.
