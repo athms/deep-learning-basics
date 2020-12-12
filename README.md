@@ -1,6 +1,6 @@
 # An introduction to the basics of deep learning
 
-This repository contains the materials for a reproducible workshop on the basics of deep learning.
+This repository contains a reproducible workshop on the basics of deep learning.
 
 Each topic is covered in a separate [Jupyter notebook](https://jupyter.org).
 
@@ -18,18 +18,17 @@ https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 ## 2. Local installation
 
-**1. Clone this repository and switch to its local directory** 
+### 2.1. Clone and switch to this repository.
 
+### 2.2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
 
-**2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
-
-For this we recommend that you setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
+For this we recommend setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
 
 You can create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the following `bash` command:
 
 ```bash
 conda create -n deep-learning-basics python==3.8
-``
+```
 
 This will create a new Python 3.8 environment with the name `deep-learning-basics` .
 
@@ -39,13 +38,13 @@ Switch to the new environment with:
 conda activate deep-learning-basics
 ```
 
-Lastly, install all required dependencies with: 
+Install all required dependencies in this environment with: 
 
 ```bash
 pip3 install -r requirements.txt
 ```
 
-**3. Start the Jupyter notebook server:**
+### 2.3. Start the Jupyter notebook server:**
 
 ```bash
 jupyter notebook
