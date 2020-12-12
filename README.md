@@ -18,16 +18,16 @@ https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 ## 2. Local installation
 
-1. Clone and switch to this repository.
+**1. Clone and switch to this repository.**
 
-2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
+**2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
 
 For this we recommend setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
 
 You can create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the following `bash` command:
 
 ```bash
-conda create -n deep-learning-basics python==3.8
+conda create --name deep-learning-basics python==3.8
 ```
 
 This will create a new Python 3.8 environment with the name `deep-learning-basics` .
@@ -44,7 +44,7 @@ Install all required dependencies in this environment with:
 pip3 install -r requirements.txt
 ```
 
-3. Start the Jupyter notebook server:
+**3. Start the Jupyter notebook server:**
 
 ```bash
 jupyter notebook
