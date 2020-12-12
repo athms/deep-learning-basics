@@ -18,9 +18,9 @@ https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 ## 2. Local installation
 
-### 2.1. Clone and switch to this repository.
+1. Clone and switch to this repository.
 
-### 2.2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
+2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
 
 For this we recommend setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
 
@@ -44,7 +44,7 @@ Install all required dependencies in this environment with:
 pip3 install -r requirements.txt
 ```
 
-### 2.3. Start the Jupyter notebook server:**
+3. Start the Jupyter notebook server:
 
 ```bash
 jupyter notebook
