@@ -4,12 +4,12 @@ This repository contains the materials for a reproducible workshop on the basics
 
 Each topic is covered in a separate [Jupyter notebook](https://jupyter.org).
 
-For a general introduction to the Jupyter environment, we recommend [this tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
-
 
 ## 1. Running the notebooks
 
-You can either install all required dependencies locally (see below) or run the Jupyter notebooks on  Jupyter Binder using the following link: 
+For a general introduction to the Jupyter environment, we recommend [this tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
+
+You can either install all required dependencies locally (see below) or run the Jupyter notebooks on  [Jupyter Binder](https://mybinder.org) using the following link: 
 
 https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
@@ -18,10 +18,10 @@ https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 ## 2. Local installation
 
-1. **Clone this repository and switch to its local directory** 
+**1. Clone this repository and switch to its local directory** 
 
 
-2. **Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
+**2. Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
 
 For this we recommend that you setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
 
@@ -37,7 +37,7 @@ Switch to the new environment with:
 
 ```bash
 conda activate deep-learning-basics
-``
+```
 
 Lastly, install all required dependencies with: 
 
@@ -45,7 +45,7 @@ Lastly, install all required dependencies with:
 pip3 install -r requirements.txt
 ```
 
-3. **Start the Jupyter notebook server:***
+**3. Start the Jupyter notebook server:**
 
 ```bash
 jupyter notebook
@@ -55,16 +55,15 @@ jupyter notebook
 
 So far, this workshop covers the following topics:
 
-1. Perceptrons and gradient descent
-2. Neural networks and backpropagation
-3. Computer vision with convolutional neural networks
+0. [`Perceptrons and gradient descent`](0-Perceptron-Gradient-Descent.ipynb)
+1. [`Neural networks and backpropagation`](1-Neural-Networks-Backpropagation.ipynb)
+2. [`Computer vision with convolutional neural networks`](2-Convolutional-Neural-Networks.ipynb)
 
 We are hoping to expand on this over time, adding introductions to: 
 
 - Recurrent neural networks
 - Explainable artificial intelligence
 - Deep reinforcement learning
-- Generative adversarial networks
 - Supervised, unsupervised, and self-supervised deep learning
 
 
