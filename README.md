@@ -1,6 +1,73 @@
-# deep-learning-basics
+# An introduction to the basics of deep learning
 
-Run this code with Jupyter Binder:
+This repository contains the materials for a reproducible workshop on the basics of deep learning.
+
+Each topic is covered in a separate [Jupyter notebook](https://jupyter.org).
+
+For a general introduction to the Jupyter environment, we recommend [this tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
+
+
+## 1. Running the notebooks
+
+You can either install all required dependencies locally (see below) or run the Jupyter notebooks on  Jupyter Binder using the following link: 
+
 https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/athms/deep-learning-basics/HEAD)
+
+
+## 2. Local installation
+
+1. **Clone this repository and switch to its local directory** 
+
+
+2. **Install all dependencies** listed in [`requirements.txt`](requirements.txt). 
+
+For this we recommend that you setting up a new Python environment (e.g., with the [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)). 
+
+You can create a new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the following `bash` command:
+
+```bash
+conda create -n deep-learning-basics python==3.8
+``
+
+This will create a new Python 3.8 environment with the name `deep-learning-basics` .
+
+Switch to the new environment with:
+
+```bash
+conda activate deep-learning-basics
+``
+
+Lastly, install all required dependencies with: 
+
+```bash
+pip3 install -r requirements.txt
+```
+
+3. **Start the Jupyter notebook server:***
+
+```bash
+jupyter notebook
+```
+
+## 3. Course content
+
+So far, this workshop covers the following topics:
+
+1. Perceptrons and gradient descent
+2. Neural networks and backpropagation
+3. Computer vision with convolutional neural networks
+
+We are hoping to expand on this over time, adding introductions to: 
+
+- Recurrent neural networks
+- Explainable artificial intelligence
+- Deep reinforcement learning
+- Generative adversarial networks
+- Supervised, unsupervised, and self-supervised deep learning
+
+
+## 4. Workshop requests
+
+If you're interested in this workshop and would like to host it at your university (or other institution), email us at: athms.research@gmail.com 
