@@ -1,5 +1,7 @@
 # An introduction to the basics of deep learning
 
+![](materials/images/free_use/title_slide.png)
+
 This repository contains a reproducible course on the basics of deep learning.
 
 Each topic is covered in a separate [Jupyter notebook](https://jupyter.org); each containing a theoretical introduction to its topic as well as a practical exercise.
