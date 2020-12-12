@@ -35,7 +35,7 @@ You can create a new [conda environment](https://docs.conda.io/projects/conda/en
 conda create --name deep-learning-basics python==3.8
 ```
 
-This will create a new Python 3.8 environment with the name `deep-learning-basics` .
+This will create a Python 3.8 environment with the name `deep-learning-basics` .
 
 Switch to the new environment with:
 
@@ -59,9 +59,9 @@ jupyter notebook
 
 So far, this workshop covers the following topics:
 
-0. [`Perceptrons and gradient descent`](0-Perceptron-Gradient-Descent.ipynb)
-1. [`Neural networks and backpropagation`](1-Neural-Networks-Backpropagation.ipynb)
-2. [`Computer vision with convolutional neural networks`](2-Convolutional-Neural-Networks.ipynb)
+[`0. Perceptrons and gradient descent`](0-Perceptron-Gradient-Descent.ipynb)
+[`1. Neural networks and backpropagation`](1-Neural-Networks-Backpropagation.ipynb)
+[`2. Computer vision with convolutional neural networks`](2-Convolutional-Neural-Networks.ipynb)
 
 We are hoping to expand on this over time, adding introductions to: 
 
